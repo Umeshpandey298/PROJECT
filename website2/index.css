@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width:100%;
+    height: 100vh;
+    
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.1)), url(workout.jpg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+nav{
+    width: 100%;
+    height: 15vh;
+     background-color: rgba(0,0,0,0.4);
+    color:orange;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    float: left;
+    display: flex;
+    border-color: black;
+
+    
+}
+ul li{
+    margin-right: 38px;
+    
+   
+
+}
+ul li a {
+     
+    text-decoration: none;
+    
+}
+h3{
+    color: aliceblue;
+}
+
+main{
+    
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+section{
+    color: white;
+    width: auto;
+}
+section h3{
+    font-size: 35px;
+    font-weight: 200;
+
+}
+section{
+    align-content: flex-end;
+    border-color: brown;
+    display: flex;
+    padding-left: 20px;
+
+
+}
+.form{
+    margin-left: 200px;
+    padding: 10px;
+    align-items: baseline;
+    background-color: rgb(143, 118, 72);
+    border: 2px;
+    
+  
+    
+}
+h1{
+    align-content: center;
+}
+form{
+    margin: 20px;
+}
+section.sec{
+    color: rgb(99, 70, 17);
+}
+p{
+    display: flex;
+}
+h6{
+    text-align: right;
+}
+
+
+
+
+
+
+
